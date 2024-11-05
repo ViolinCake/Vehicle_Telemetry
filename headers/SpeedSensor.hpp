@@ -7,6 +7,5 @@ class SpeedSensor : public Sensor {
     public:
     int GetReadings() const override;
     std::string GetSensorType() const override;
-    
-      
+
 };
