@@ -2,9 +2,9 @@
 #include "SpeedSensor.hpp"
 #include "DiagnosticStrategy.hpp"
 
-class SpeedSensorDiagStrategy : public SpeedSensor{
+class SpeedSensorDiagStrategy : public SpeedSensor {
 
     public:
     void analyze() override;
-
+    void diagnose() const override;
 };
