@@ -1,9 +1,12 @@
 #pragma once
-class DiagnosticStrategy : public Sensor {
+#include "SensorReading.hpp"
+#include <iostream>
+#include <memory>
+class DiagnosticStrategy {
+    protected:
 
     public:
-    virtual void diagnose() const =0; // it just delegates to analyze() function
-
-    virtual void analyze(const Sensor& sensor) const =0;
-    
-}
+    //virtual void analyze(std::unique_ptr<SensorReading> reading){std::cout<<"ping"<<'\n';};
+    virtual void analyze(std::unique_ptr<SensorReading> reading) = 0;
+    virtual ~DiagnosticStrategy()= default;
+};

@@ -1,10 +1,10 @@
 #pragma once
-#include "SpeedSensor.hpp"
 #include "DiagnosticStrategy.hpp"
 
-class SpeedSensorDiagStrategy : public SpeedSensor {
-
+class SpeedSensorDiagStrategy : public DiagnosticStrategy {
+    private:
+    
     public:
-    void analyze() override;
-    void diagnose() const override;
+    void analyze(std::unique_ptr<SensorReading> reading) override;
+    
 };
