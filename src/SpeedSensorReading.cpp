@@ -1,8 +1,18 @@
 #include "SpeedSensorReading.hpp"
-
-
+#include<cstdlib>
+#include<iostream>
 //contains the reading generator algorithm for each sensor type
-int SpeedSensorReading::ReadingGenerator ()  
+int SpeedSensorReading::ReadingGenerator(){
+    speedreading    =   rand()  %   251;
+    return speedreading;    
+}
+int SpeedSensorReading::GetReading ()  
 {
-    return 150;
+    std::cout<<"GetReading speed = "<<speedreading<<'\n';
+    return speedreading;
+}
+void SpeedSensorReading::SetReading (int value)  
+{
+    
+    speedreading    =   value;
 }

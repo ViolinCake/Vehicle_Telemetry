@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/vehicle.dir/ACC.cpp.o"
+  "CMakeFiles/vehicle.dir/ACC.cpp.o.d"
   "CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o"
   "CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o.d"
   "CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o"
   "CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o.d"
+  "CMakeFiles/vehicle.dir/Vehicle.cpp.o"
+  "CMakeFiles/vehicle.dir/Vehicle.cpp.o.d"
   "CMakeFiles/vehicle.dir/main.cpp.o"
   "CMakeFiles/vehicle.dir/main.cpp.o.d"
   "vehicle"

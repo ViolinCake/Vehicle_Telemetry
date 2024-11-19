@@ -1,4 +1,5 @@
 //#include "Sensor.hpp"
+#pragma once
 #include "DiagnosticStrategy.hpp"
 #include "SensorReading.hpp"
 #include <iostream>
@@ -19,6 +20,10 @@ void diagnose()  /*delegation for the analyze() function*/
     std::cout<<"start diagnosing"<<'\n';
     strat->analyze(std::move(reading));
 
+}
+void generate() /*delegation for the ReadingGenerator() function*/
+{
+    reading->ReadingGenerator();
 }
 
 };

@@ -1,7 +1,10 @@
-src/CMakeFiles/vehicle.dir/main.cpp.o: \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+src/CMakeFiles/vehicle.dir/ACC.cpp.o: \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/src/ACC.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/ACC.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -149,33 +152,4 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_tempbuf.h \
- /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/ext/concurrence.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/utility \
- /usr/include/c++/13/bits/stl_relops.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/ctime \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Sensor.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorDiagStrategy.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Vehicle.hpp
+ /usr/include/c++/13/bits/istream.tcc

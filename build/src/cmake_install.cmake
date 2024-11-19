@@ -1,4 +1,4 @@
-# Install script for directory: /home/kenjhin/Desktop/trial/Vehicle_Telemetry/src
+# Install script for directory: /home/kenjhin2/Desktop/Vehicle_Telemetry/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
