@@ -28,9 +28,9 @@ int main(){
         std::make_unique<SpeedSensorReading>()
         );
     auto speedsensor2    =   std::make_unique<Sensor>(
-    std::make_unique<SpeedSensorDiagStrategy>(),
-    std::make_unique<SpeedSensorReading>()
-    );
+        std::make_unique<SpeedSensorDiagStrategy>(),
+        std::make_unique<SpeedSensorReading>()
+        );
 
     Vehicle mycar;
     mycar.addSensor(std::move(speedsensor));
@@ -71,11 +71,3 @@ int main(){
     // }
     return 0;
 }
-/*
-sensors.push_back()
-for(Sensor* sensor : sensors){
-        sensor->StartDiagnose();
-    }
-
-
-*/

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o.d"
   "CMakeFiles/vehicle.dir/Vehicle.cpp.o"
   "CMakeFiles/vehicle.dir/Vehicle.cpp.o.d"
+  "CMakeFiles/vehicle.dir/logger.cpp.o"
+  "CMakeFiles/vehicle.dir/logger.cpp.o.d"
   "CMakeFiles/vehicle.dir/main.cpp.o"
   "CMakeFiles/vehicle.dir/main.cpp.o.d"
   "vehicle"

@@ -1,12 +1,13 @@
 #include "ACC.hpp"
 #include <iostream>
-
+#include <string>
+#include "logger.hpp"
 void ACC::slowdown(){
     std::cout<<"slowing down..."<<'\n';
     /*set speedreading here*/
-    SpeedSensorReading speedreadingObj;
+    
     SetReading(50);
-    GetReading();
+    logger::getInstance.log("HIGH SPEED...slowing down...   speed   =   "+std::to_string(speedreading));
 }
 void ACC::hitbreak(){
     std::cout<<"hit break..."<<'\n';

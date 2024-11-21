@@ -226,6 +226,30 @@ Vehicle.cpp.s:
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/Vehicle.cpp.s
 .PHONY : Vehicle.cpp.s
 
+logger.o: logger.cpp.o
+.PHONY : logger.o
+
+# target to build an object file
+logger.cpp.o:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/logger.cpp.o
+.PHONY : logger.cpp.o
+
+logger.i: logger.cpp.i
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cpp.i:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/logger.cpp.i
+.PHONY : logger.cpp.i
+
+logger.s: logger.cpp.s
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cpp.s:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/logger.cpp.s
+.PHONY : logger.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -271,6 +295,9 @@ help:
 	@echo "... Vehicle.o"
 	@echo "... Vehicle.i"
 	@echo "... Vehicle.s"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
