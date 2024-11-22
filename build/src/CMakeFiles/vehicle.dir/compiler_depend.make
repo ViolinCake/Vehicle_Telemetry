@@ -3,6 +3,8 @@
 
 src/CMakeFiles/vehicle.dir/ACC.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/src/ACC.cpp \
   /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/ACC.hpp \
+  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp \
+  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Sensor.hpp \
   /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp \
   /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp \
   /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/logger.hpp \
@@ -1343,10 +1345,6 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
 
-/home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -1427,7 +1425,9 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/stdio.h:
 
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
+/usr/include/stdint.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -1438,12 +1438,6 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 /usr/include/c++/13/stdexcept:
 
 /usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/time.h:
 
@@ -1461,10 +1455,6 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
 /usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
@@ -1481,9 +1471,17 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/c++/13/bits/nested_exception.h:
 
-/usr/include/c++/13/bits/istream.tcc:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/c++/13/bits/exception_ptr.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/c++/13/bits/localefwd.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
@@ -1505,11 +1503,13 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/alloca.h:
 
-/usr/include/c++/13/ios:
+/usr/include/c++/13/bits/exception_ptr.h:
 
-/usr/include/c++/13/bits/concept_check.h:
+/usr/include/c++/13/bits/istream.tcc:
 
-/usr/include/c++/13/bits/alloc_traits.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
@@ -1531,6 +1531,18 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
+
+/home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/usr/include/c++/13/ios:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
 /usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/include/c++/13/bit:
@@ -1543,17 +1555,27 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/ACC.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/c++/13/fstream:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/c++/13/cstdio:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/13/bits/basic_string.h:
 
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
 /usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
@@ -1585,23 +1607,7 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/13/fstream:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/include/c++/13/bits/stl_pair.h:
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
@@ -1661,9 +1667,9 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/13/bits/atomic_base.h:
-
 /usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
@@ -1706,8 +1712,6 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/ext/string_conversions.h:
 
 /usr/include/c++/13/ext/type_traits.h:
 
@@ -1766,5 +1770,3 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/
 /usr/include/pthread.h:
 
 /usr/include/sched.h:
-
-/usr/include/stdint.h:

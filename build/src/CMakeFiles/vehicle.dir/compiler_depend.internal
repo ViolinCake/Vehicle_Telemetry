@@ -4,6 +4,8 @@
 src/CMakeFiles/vehicle.dir/ACC.cpp.o
  /home/kenjhin2/Desktop/Vehicle_Telemetry/src/ACC.cpp
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/ACC.hpp
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Sensor.hpp
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/logger.hpp

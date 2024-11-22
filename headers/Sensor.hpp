@@ -21,9 +21,13 @@ void diagnose()  /*delegation for the analyze() function*/
     strat->analyze(std::move(reading));
 
 }
-void generate() /*delegation for the ReadingGenerator() function*/
+int generate() /*delegation for the ReadingGenerator() function*/
 {
-    reading->ReadingGenerator();
+    return reading->ReadingGenerator();
+}
+int GetReading_()  /*delegation for the GetReading() function*/
+{
+    return reading->GetReading();
 }
 
 };
