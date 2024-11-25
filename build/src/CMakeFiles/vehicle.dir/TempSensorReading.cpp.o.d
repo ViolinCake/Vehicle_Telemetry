@@ -1,8 +1,7 @@
-src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o: \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/src/SpeedSensorDiagStrategy.cpp \
+src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o: \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorReading.cpp \
  /usr/include/stdc-predef.h \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorDiagStrategy.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/TempSensorReading.hpp \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -154,7 +153,12 @@ src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/logger.hpp \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
@@ -173,6 +177,4 @@ src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/ACC.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp
+ /usr/include/c++/13/pstl/execution_defs.h

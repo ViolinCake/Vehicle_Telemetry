@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/ACC.cpp" "src/CMakeFiles/vehicle.dir/ACC.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/ACC.cpp.o.d"
   "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/SpeedSensorDiagStrategy.cpp" "src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o.d"
   "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/SpeedSensorReading.cpp" "src/CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o.d"
+  "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorDiagStrategy.cpp" "src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o.d"
+  "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorReading.cpp" "src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o.d"
   "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/Vehicle.cpp" "src/CMakeFiles/vehicle.dir/Vehicle.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/Vehicle.cpp.o.d"
   "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/logger.cpp" "src/CMakeFiles/vehicle.dir/logger.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/logger.cpp.o.d"
   "/home/kenjhin2/Desktop/Vehicle_Telemetry/src/main.cpp" "src/CMakeFiles/vehicle.dir/main.cpp.o" "gcc" "src/CMakeFiles/vehicle.dir/main.cpp.o.d"

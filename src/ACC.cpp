@@ -16,3 +16,6 @@ void ACC::hitbreak(){
 void ACC::batteryalert(){
     std::cout<<"battery low..."<<'\n';
 }
+void ACC::tempalert(){
+    std::cout<<"high tempereture..."<<'\n';
+}

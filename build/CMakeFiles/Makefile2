@@ -96,12 +96,12 @@ src/clean: src/CMakeFiles/vehicle.dir/clean
 src/CMakeFiles/vehicle.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target vehicle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target vehicle"
 .PHONY : src/CMakeFiles/vehicle.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/vehicle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vehicle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/vehicle.dir/rule

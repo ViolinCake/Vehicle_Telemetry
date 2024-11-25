@@ -15,7 +15,7 @@ void    Vehicle::GenerateReadings()  const{
             sensor->generate();
             //int reading =   sensor->GetReading_();
             std::cout<<"hello from vehicle.cpp... reading = "<<sensor->GetReading_()<<'\n';
-            logger::getInstance().log("vehicle speed = "+std::to_string(sensor->GetReading_()));
+            logger::getInstance().log("ping"+std::string(sensor->GetReadingType_()) + " = " + std::to_string(sensor->GetReading_()));
         }
 }
 void    Vehicle::DisplayDashboard()  const{

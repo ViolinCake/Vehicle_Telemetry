@@ -1,7 +1,7 @@
-src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o: \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/src/SpeedSensorDiagStrategy.cpp \
+src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o: \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorDiagStrategy.cpp \
  /usr/include/stdc-predef.h \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorDiagStrategy.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/TempSensorDiagStrategy.hpp \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \

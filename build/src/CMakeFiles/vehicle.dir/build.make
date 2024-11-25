@@ -111,10 +111,38 @@ src/CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.s"
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kenjhin2/Desktop/Vehicle_Telemetry/src/SpeedSensorReading.cpp -o CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.s
 
+src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o: src/CMakeFiles/vehicle.dir/flags.make
+src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorDiagStrategy.cpp
+src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o: src/CMakeFiles/vehicle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o"
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o -MF CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o.d -o CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o -c /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorDiagStrategy.cpp
+
+src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.i"
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorDiagStrategy.cpp > CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.i
+
+src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.s"
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorDiagStrategy.cpp -o CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.s
+
+src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o: src/CMakeFiles/vehicle.dir/flags.make
+src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorReading.cpp
+src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o: src/CMakeFiles/vehicle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o"
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o -MF CMakeFiles/vehicle.dir/TempSensorReading.cpp.o.d -o CMakeFiles/vehicle.dir/TempSensorReading.cpp.o -c /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorReading.cpp
+
+src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vehicle.dir/TempSensorReading.cpp.i"
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorReading.cpp > CMakeFiles/vehicle.dir/TempSensorReading.cpp.i
+
+src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vehicle.dir/TempSensorReading.cpp.s"
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kenjhin2/Desktop/Vehicle_Telemetry/src/TempSensorReading.cpp -o CMakeFiles/vehicle.dir/TempSensorReading.cpp.s
+
 src/CMakeFiles/vehicle.dir/Vehicle.cpp.o: src/CMakeFiles/vehicle.dir/flags.make
 src/CMakeFiles/vehicle.dir/Vehicle.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/src/Vehicle.cpp
 src/CMakeFiles/vehicle.dir/Vehicle.cpp.o: src/CMakeFiles/vehicle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/vehicle.dir/Vehicle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/vehicle.dir/Vehicle.cpp.o"
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/vehicle.dir/Vehicle.cpp.o -MF CMakeFiles/vehicle.dir/Vehicle.cpp.o.d -o CMakeFiles/vehicle.dir/Vehicle.cpp.o -c /home/kenjhin2/Desktop/Vehicle_Telemetry/src/Vehicle.cpp
 
 src/CMakeFiles/vehicle.dir/Vehicle.cpp.i: cmake_force
@@ -128,7 +156,7 @@ src/CMakeFiles/vehicle.dir/Vehicle.cpp.s: cmake_force
 src/CMakeFiles/vehicle.dir/logger.cpp.o: src/CMakeFiles/vehicle.dir/flags.make
 src/CMakeFiles/vehicle.dir/logger.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/src/logger.cpp
 src/CMakeFiles/vehicle.dir/logger.cpp.o: src/CMakeFiles/vehicle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/vehicle.dir/logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/vehicle.dir/logger.cpp.o"
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/vehicle.dir/logger.cpp.o -MF CMakeFiles/vehicle.dir/logger.cpp.o.d -o CMakeFiles/vehicle.dir/logger.cpp.o -c /home/kenjhin2/Desktop/Vehicle_Telemetry/src/logger.cpp
 
 src/CMakeFiles/vehicle.dir/logger.cpp.i: cmake_force
@@ -142,7 +170,7 @@ src/CMakeFiles/vehicle.dir/logger.cpp.s: cmake_force
 src/CMakeFiles/vehicle.dir/main.cpp.o: src/CMakeFiles/vehicle.dir/flags.make
 src/CMakeFiles/vehicle.dir/main.cpp.o: /home/kenjhin2/Desktop/Vehicle_Telemetry/src/main.cpp
 src/CMakeFiles/vehicle.dir/main.cpp.o: src/CMakeFiles/vehicle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/vehicle.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/vehicle.dir/main.cpp.o"
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/vehicle.dir/main.cpp.o -MF CMakeFiles/vehicle.dir/main.cpp.o.d -o CMakeFiles/vehicle.dir/main.cpp.o -c /home/kenjhin2/Desktop/Vehicle_Telemetry/src/main.cpp
 
 src/CMakeFiles/vehicle.dir/main.cpp.i: cmake_force
@@ -158,6 +186,8 @@ vehicle_OBJECTS = \
 "CMakeFiles/vehicle.dir/ACC.cpp.o" \
 "CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o" \
 "CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o" \
+"CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o" \
+"CMakeFiles/vehicle.dir/TempSensorReading.cpp.o" \
 "CMakeFiles/vehicle.dir/Vehicle.cpp.o" \
 "CMakeFiles/vehicle.dir/logger.cpp.o" \
 "CMakeFiles/vehicle.dir/main.cpp.o"
@@ -168,12 +198,14 @@ vehicle_EXTERNAL_OBJECTS =
 src/vehicle: src/CMakeFiles/vehicle.dir/ACC.cpp.o
 src/vehicle: src/CMakeFiles/vehicle.dir/SpeedSensorDiagStrategy.cpp.o
 src/vehicle: src/CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.o
+src/vehicle: src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o
+src/vehicle: src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o
 src/vehicle: src/CMakeFiles/vehicle.dir/Vehicle.cpp.o
 src/vehicle: src/CMakeFiles/vehicle.dir/logger.cpp.o
 src/vehicle: src/CMakeFiles/vehicle.dir/main.cpp.o
 src/vehicle: src/CMakeFiles/vehicle.dir/build.make
 src/vehicle: src/CMakeFiles/vehicle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable vehicle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kenjhin2/Desktop/Vehicle_Telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable vehicle"
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vehicle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

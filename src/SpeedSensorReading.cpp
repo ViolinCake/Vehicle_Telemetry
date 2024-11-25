@@ -20,3 +20,6 @@ void SpeedSensorReading::SetReading (int value)
     
     speedreading    =   value;
 }
+const char* SpeedSensorReading::GetReadingType(){
+    return "speed";
+}

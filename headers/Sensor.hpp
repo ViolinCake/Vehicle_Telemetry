@@ -4,6 +4,7 @@
 #include "SensorReading.hpp"
 #include <iostream>
 #include <memory>
+#include <string>
 class Sensor {
 protected:
 
@@ -28,6 +29,10 @@ int generate() /*delegation for the ReadingGenerator() function*/
 int GetReading_()  /*delegation for the GetReading() function*/
 {
     return reading->GetReading();
+}
+const char* GetReadingType_()
+{
+    return reading->GetReadingType();
 }
 
 };

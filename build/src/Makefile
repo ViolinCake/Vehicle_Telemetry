@@ -202,6 +202,54 @@ SpeedSensorReading.cpp.s:
 	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/SpeedSensorReading.cpp.s
 .PHONY : SpeedSensorReading.cpp.s
 
+TempSensorDiagStrategy.o: TempSensorDiagStrategy.cpp.o
+.PHONY : TempSensorDiagStrategy.o
+
+# target to build an object file
+TempSensorDiagStrategy.cpp.o:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o
+.PHONY : TempSensorDiagStrategy.cpp.o
+
+TempSensorDiagStrategy.i: TempSensorDiagStrategy.cpp.i
+.PHONY : TempSensorDiagStrategy.i
+
+# target to preprocess a source file
+TempSensorDiagStrategy.cpp.i:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.i
+.PHONY : TempSensorDiagStrategy.cpp.i
+
+TempSensorDiagStrategy.s: TempSensorDiagStrategy.cpp.s
+.PHONY : TempSensorDiagStrategy.s
+
+# target to generate assembly for a file
+TempSensorDiagStrategy.cpp.s:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.s
+.PHONY : TempSensorDiagStrategy.cpp.s
+
+TempSensorReading.o: TempSensorReading.cpp.o
+.PHONY : TempSensorReading.o
+
+# target to build an object file
+TempSensorReading.cpp.o:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.o
+.PHONY : TempSensorReading.cpp.o
+
+TempSensorReading.i: TempSensorReading.cpp.i
+.PHONY : TempSensorReading.i
+
+# target to preprocess a source file
+TempSensorReading.cpp.i:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.i
+.PHONY : TempSensorReading.cpp.i
+
+TempSensorReading.s: TempSensorReading.cpp.s
+.PHONY : TempSensorReading.s
+
+# target to generate assembly for a file
+TempSensorReading.cpp.s:
+	cd /home/kenjhin2/Desktop/Vehicle_Telemetry/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vehicle.dir/build.make src/CMakeFiles/vehicle.dir/TempSensorReading.cpp.s
+.PHONY : TempSensorReading.cpp.s
+
 Vehicle.o: Vehicle.cpp.o
 .PHONY : Vehicle.o
 
@@ -292,6 +340,12 @@ help:
 	@echo "... SpeedSensorReading.o"
 	@echo "... SpeedSensorReading.i"
 	@echo "... SpeedSensorReading.s"
+	@echo "... TempSensorDiagStrategy.o"
+	@echo "... TempSensorDiagStrategy.i"
+	@echo "... TempSensorDiagStrategy.s"
+	@echo "... TempSensorReading.o"
+	@echo "... TempSensorReading.i"
+	@echo "... TempSensorReading.s"
 	@echo "... Vehicle.o"
 	@echo "... Vehicle.i"
 	@echo "... Vehicle.s"

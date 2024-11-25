@@ -1,5 +1,6 @@
 #pragma once
 #include "SensorReading.hpp"
+#include <string>
 
 class SpeedSensorReading : public SensorReading {
 
@@ -12,5 +13,5 @@ void SetReading(int value) override; /*i think i should set the reading here so 
 public:
 int ReadingGenerator() override;
 int GetReading() override;
-
+const char* GetReadingType() override;
 };
