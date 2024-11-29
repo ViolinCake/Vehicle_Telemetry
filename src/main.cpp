@@ -35,14 +35,18 @@ int main(){
     //     );
 
     Vehicle mycar;
+    std::cout<<"moved pointer in main.cpp"<<'\n';
     mycar.addSensor(std::move(speedsensor));
     //mycar.addSensor(std::move(tempsensor));
     //while(true){
         mycar.GenerateReadings();
-        mycar.StartDiagnoses();
+        std::cout<<"test test"<<'\n';
+        mycar.GenerateReadings();
+        mycar.StartDiagnoses();             /*the problem is here for undefined behaviors
+                                            of the unique pointers*/
         system("sleep 2");
     //}
-    std::cout<<"test test"<<'\n';
+    std::cout<<"test test test"<<'\n';
     
     mycar.GenerateReadings();
 

@@ -19,7 +19,9 @@ strat(std::move(strat_)),reading(std::move(reading_)) {}
 void diagnose()  /*delegation for the analyze() function*/
 {
     std::cout<<"start diagnosing"<<'\n';
-    strat->analyze(std::move(reading));
+    std::cout<<"moved pointer in Sensor.hpp"<<'\n';
+    strat->analyze(std::move(reading)); /*we need to send the actual reading 
+                                                instead of moving pointer*/
 
 }
 int generate() /*delegation for the ReadingGenerator() function*/
