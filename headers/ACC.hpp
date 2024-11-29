@@ -6,7 +6,7 @@ class ACC : public SpeedSensorReading {
 
     public:
     
-    void slowdown();
+    void slowdown(int speedthreshold);
     void hitbreak();
     void batteryalert();
     void tempalert();

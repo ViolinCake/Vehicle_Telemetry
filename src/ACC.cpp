@@ -3,12 +3,17 @@
 #include <string>
 #include "logger.hpp"
 #include "Sensor.hpp"
-void ACC::slowdown(){
+#include "SpeedSensorDiagStrategy.hpp"
+void ACC::slowdown(int speedthreshold){
     std::cout<<"slowing down..."<<'\n';
-    /*set speedreading here*/
     
-    SetReading(50);
-    logger::getInstance().log("HIGH SPEED...slowing down...   speed   =   "+std::to_string(GetReading()));
+    //while(GetReading()>=SAFE_SPEED){
+            SetReading(GetReading()-10);
+            logger::getInstance().log("HIGH SPEED...slowing down...   speed   =   "+std::to_string(GetReading()));
+        //}
+
+    
+    
 }
 void ACC::hitbreak(){
     std::cout<<"hit break..."<<'\n';

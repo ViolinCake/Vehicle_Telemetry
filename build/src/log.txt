@@ -1,2 +1,0 @@
-pingspeed = 194
-pingspeed = 21

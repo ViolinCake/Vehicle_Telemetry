@@ -3,9 +3,10 @@
 #include<iostream>
 #include <string>
 #include "logger.hpp"
+
 //contains the reading generator algorithm for each sensor type
 int TempSensorReading::ReadingGenerator(){
-    tempreading    =   rand()  %   251;
+    tempreading    =   rand()  %   120;
     
     return tempreading;    
 }
@@ -17,4 +18,7 @@ int TempSensorReading::GetReading ()
 }
 const char* TempSensorReading::GetReadingType(){
     return "temperature";
+}
+void TempSensorReading::SetReading(int value){
+    
 }

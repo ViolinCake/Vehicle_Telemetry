@@ -10,10 +10,10 @@ void SpeedSensorDiagStrategy::analyze(std::unique_ptr<SensorReading> reading)  {
     speed=reading->GetReading();
     std::cout<<"generated reading   =   "<<speed<<'\n';
 
-    if(speed>200){
+    if(speed>HIGH_SPEED){
         //Send Request to the ECU to slow down
         std::cout<<"send request to the ECU to slow down"<<'\n';
-        action.slowdown();
+        action.slowdown(SAFE_SPEED);
 
     }
 }

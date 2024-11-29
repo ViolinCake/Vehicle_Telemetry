@@ -7,8 +7,10 @@
 #include "Sensor.hpp"
 #include "SpeedSensorReading.hpp"
 #include "SpeedSensorDiagStrategy.hpp"
+#include "TempSensorDiagStrategy.hpp"
+#include "TempSensorReading.hpp"
 #include "Vehicle.hpp"
-
+#include "logger.hpp"
 int main(){
 
     // std::vector<Sensor*> sensors;
@@ -20,23 +22,29 @@ int main(){
     //sensors.push_back(&TempSensor);
     srand(time(0));
 
-    
+    logger::getInstance().log("hello from main.cpp");
 
     //Sensor speedsensor(std::make_unique<SpeedSensorDiagStrategy>(),std::make_unique<SpeedSensorReading>());
     auto speedsensor    =   std::make_unique<Sensor>(
         std::make_unique<SpeedSensorDiagStrategy>(),
         std::make_unique<SpeedSensorReading>()
         );
-    auto speedsensor2    =   std::make_unique<Sensor>(
-        std::make_unique<SpeedSensorDiagStrategy>(),
-        std::make_unique<SpeedSensorReading>()
-        );
+    // auto tempsensor    =   std::make_unique<Sensor>(
+    //     std::make_unique<TempSensorDiagStrategy>(),
+    //     std::make_unique<TempSensorReading>()
+    //     );
 
     Vehicle mycar;
     mycar.addSensor(std::move(speedsensor));
-    mycar.addSensor(std::move(speedsensor2));
+    //mycar.addSensor(std::move(tempsensor));
+    //while(true){
+        mycar.GenerateReadings();
+        mycar.StartDiagnoses();
+        system("sleep 2");
+    //}
+    std::cout<<"test test"<<'\n';
+    
     mycar.GenerateReadings();
-    mycar.StartDiagnoses();
 
 
                     /*      this works successfully     */

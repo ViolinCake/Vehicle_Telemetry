@@ -178,4 +178,11 @@ src/CMakeFiles/vehicle.dir/main.cpp.o: \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SensorReading.hpp \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorDiagStrategy.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Vehicle.hpp
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/TempSensorDiagStrategy.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/TempSensorReading.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Vehicle.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/logger.hpp \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc

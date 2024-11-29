@@ -13,5 +13,6 @@ protected:
 public:
 int ReadingGenerator() override;
 int GetReading() override;
+void SetReading(int value) override;
 const char* GetReadingType() override;
 };

@@ -12,7 +12,7 @@ int SpeedSensorReading::ReadingGenerator(){
 int SpeedSensorReading::GetReading ()  
 {
     std::cout<<"GetReading speed = "<<speedreading<<'\n';
-    //logger::getInstance().log("vehicle speed =  "+std::to_string(speereading));
+    //logger::getInstance().log("vehicle speed =  "+std::to_string(speedreading));
     return speedreading;
 }
 void SpeedSensorReading::SetReading (int value)  

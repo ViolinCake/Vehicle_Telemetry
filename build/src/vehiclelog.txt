@@ -1,0 +1,3 @@
+hello from main.cpp
+pingspeed = 247
+HIGH SPEED...slowing down...   speed   =   -692535610

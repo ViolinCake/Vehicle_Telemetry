@@ -5,7 +5,7 @@
 #include <memory>
 
 std::unique_ptr<logger> logger::instance =   nullptr;
-logger::logger()    :   logFile("log.txt",std::ios::app){
+logger::logger()    :   logFile("vehiclelog.txt",std::ios::app){
     if(!logFile.is_open()){
         std::cerr<<"failed to open log file"<<'\n';
     }

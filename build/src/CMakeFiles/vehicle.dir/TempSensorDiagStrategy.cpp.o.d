@@ -174,5 +174,11 @@ src/CMakeFiles/vehicle.dir/TempSensorDiagStrategy.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorDiagStrategy.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/logger.hpp \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/ACC.hpp \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorReading.hpp

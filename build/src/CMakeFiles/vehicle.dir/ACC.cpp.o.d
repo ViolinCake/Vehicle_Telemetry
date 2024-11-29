@@ -180,4 +180,5 @@ src/CMakeFiles/vehicle.dir/ACC.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/Sensor.hpp \
- /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/DiagnosticStrategy.hpp \
+ /home/kenjhin2/Desktop/Vehicle_Telemetry/headers/SpeedSensorDiagStrategy.hpp
