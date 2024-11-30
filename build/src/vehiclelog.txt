@@ -1,3 +1,35 @@
 hello from main.cpp
 pingspeed = 247
 HIGH SPEED...slowing down...   speed   =   -692535610
+hello from main.cpp
+ping speed = 149
+ping speed = 59
+ping speed = 110
+hello from main.cpp
+ping speed = 2
+ping speed = 134
+ping speed = 130
+hello from main.cpp
+ping speed = 134
+hello from main.cpp
+ping speed = 26
+hello from main.cpp
+ping speed = 211
+HIGH SPEED...slowing down...   speed   =   -1579771322
+hello from main.cpp
+ping speed = 74
+hello from main.cpp
+ping speed = 143
+hello from main.cpp
+ping speed = 57
+hello from main.cpp
+ping speed = 108
+hello from main.cpp
+ping speed = 198
+hello from main.cpp
+ping speed = 126
+hello from main.cpp
+ping speed = 110
+hello from main.cpp
+ping speed = 246
+HIGH SPEED...slowing down...   speed   =   456804934

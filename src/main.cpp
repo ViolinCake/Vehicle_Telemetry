@@ -39,16 +39,12 @@ int main(){
     mycar.addSensor(std::move(speedsensor));
     //mycar.addSensor(std::move(tempsensor));
     //while(true){
+        
         mycar.GenerateReadings();
-        std::cout<<"test test"<<'\n';
-        mycar.GenerateReadings();
-        mycar.StartDiagnoses();             /*the problem is here for undefined behaviors
-                                            of the unique pointers*/
+        mycar.StartDiagnoses();             
         system("sleep 2");
     //}
-    std::cout<<"test test test"<<'\n';
     
-    mycar.GenerateReadings();
 
 
                     /*      this works successfully     */

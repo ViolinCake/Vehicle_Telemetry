@@ -7,6 +7,6 @@ class DiagnosticStrategy {
 
     public:
     //virtual void analyze(std::unique_ptr<SensorReading> reading){std::cout<<"ping"<<'\n';};
-    virtual void analyze(std::unique_ptr<SensorReading> reading) = 0;
+    virtual void analyze(int reading) = 0;
     virtual ~DiagnosticStrategy()= default;
 };

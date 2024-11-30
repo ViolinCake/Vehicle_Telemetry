@@ -7,6 +7,6 @@ class SpeedSensorDiagStrategy : public DiagnosticStrategy {
     private:
     
     public:
-    void analyze(std::unique_ptr<SensorReading> reading) override;
+    void analyze(int reading) override;
     
 };

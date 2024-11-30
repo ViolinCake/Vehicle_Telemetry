@@ -20,7 +20,7 @@ void diagnose()  /*delegation for the analyze() function*/
 {
     std::cout<<"start diagnosing"<<'\n';
     std::cout<<"moved pointer in Sensor.hpp"<<'\n';
-    strat->analyze(std::move(reading)); /*we need to send the actual reading 
+    strat->analyze(reading->GetReading()); /*we need to send the actual reading 
                                                 instead of moving pointer*/
 
 }
